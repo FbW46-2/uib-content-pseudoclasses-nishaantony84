@@ -1,0 +1,62 @@
+body {
+  color: white;
+  text-decoration: underline;
+  background-color: cyan;
+}
+
+ul.space_list li {
+  margin-bottom: 2em;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+}
+.Google {
+  background-color: tomato;
+  font-size: larger;
+  font-weight: bolder;
+  margin: 0;
+}
+.Bing {
+  font-size: larger;
+  font-weight: bolder;
+  background-color: rgb(105, 85, 194);
+  margin: 0;
+}
+.Yahoo {
+  font-size: larger;
+  font-weight: bolder;
+  background-color: lime;
+  margin: 0;
+}
+.Line1 {
+  background-color: tomato;
+  margin: 20px;
+}
+.Line2 {
+  background-color: rgb(105, 85, 194);
+  margin: 20px;
+}
+.Line3 {
+  background-color: lime;
+  margin: 20px;
+}
+/* unvisited link */
+a:link {
+  color: #ff0000;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+}
+
+/* mouse over link */
+a:hover {
+  color: brown;
+}
+
+/* selected link */
+a:active {
+  color: #0000ff;
+}
